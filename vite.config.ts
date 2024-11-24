@@ -10,4 +10,5 @@ export default defineConfig({
   build: {
     outDir: 'docs', // Spécifie que le dossier de sortie est "docs"
   },
+  base: '/pantoufles/', 
 });
