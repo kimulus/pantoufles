@@ -11,17 +11,17 @@ export function PatternSelector({ selectedPattern, onPatternSelect }: PatternSel
   return (
     <div className="flex gap-4 justify-center mb-6">
       <button
-        onClick={() => onPatternSelect('sweater')}
+        onClick={() => onPatternSelect('pantouffle')}
         className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
-          selectedPattern === 'sweater'
+          selectedPattern === 'pantouffle'
             ? 'bg-indigo-600 text-white'
             : 'bg-white text-gray-600 hover:bg-gray-50'
         }`}
       >
         <Shirt className="w-5 h-5" />
-        <span>Sweater</span>
+        <span>Pantoufle</span>
       </button>
-      <button
+      {/* <button
         onClick={() => onPatternSelect('scarf')}
         className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
           selectedPattern === 'scarf'
@@ -31,8 +31,8 @@ export function PatternSelector({ selectedPattern, onPatternSelect }: PatternSel
       >
         <Scroll className="w-5 h-5" />
         <span>Scarf</span>
-      </button>
-      <button
+      </button> */}
+      {/* <button
         onClick={() => onPatternSelect('pantouffle')}
         className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
           selectedPattern === 'pantouffle'
@@ -42,7 +42,7 @@ export function PatternSelector({ selectedPattern, onPatternSelect }: PatternSel
       >
         <Footprints className="w-5 h-5" />
         <span>Pantouffle</span>
-      </button>
+      </button> */}
     </div>
   );
 }
