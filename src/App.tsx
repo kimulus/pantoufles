@@ -8,7 +8,7 @@ import type { PatternType } from './data/patterns';
 import { sectionPalettes } from './data/palettes';
 
 function App() {
-  const [selectedPattern, setSelectedPattern] = useState<PatternType>('sweater');
+  const [selectedPattern, setSelectedPattern] = useState<PatternType>('pantouffle');
   const [selectedSection, setSelectedSection] = useState<string | null>(null);
   const [sectionColors, setSectionColors] = useState<Record<string, string>>({});
 
